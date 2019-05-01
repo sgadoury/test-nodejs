@@ -5,9 +5,9 @@ var appRouter = function(app) {
 
     app.get("/account", function(req, res) {
         var accountMock = {
-            "username": "nraboy",
+            "username": "sgadoury",
             "password": "1234",
-            "twitter": "@nraboy"
+            "twitter": "@sgadoury"
         }
         if(!req.query.username) {
             return res.send({"status": "error", "message": "missing username"});
